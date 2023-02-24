@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "alloycraft",
+  "version": "${version}",
+  "name": "alloycraft",
+  "description": "All about metal",
+  "authors": [
+    "young"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/alloycraft/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.young.alloycraft.client.AlloycraftClient"
+    ],
+    "main": [
+      "com.young.alloycraft.Alloycraft"
+    ]
+  },
+  "mixins": [
+    "alloycraft.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.14",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}
